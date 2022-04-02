@@ -25,3 +25,7 @@ tasks {
         delete(rootProject.buildDir)
     }
 }
+
+subprojects {
+    plugins.apply("plugin.ktlint")
+}
