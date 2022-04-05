@@ -46,6 +46,8 @@ android {
 }
 
 dependencies {
+    implementation(project(BuildModules.DATA))
+    implementation(project(BuildModules.DOMAIN))
     implementation(Dependencies.CORE_KTX)
     implementation(Dependencies.APPCOMPAT)
     implementation(Dependencies.MATERIAL)
